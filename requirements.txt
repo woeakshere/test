@@ -1,0 +1,26 @@
+# Telegram Bot Dependencies
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+
+# MongoDB Dependencies
+motor==3.3.2
+pymongo==4.6.1
+dnspython==2.4.2
+
+# Performance and Monitoring
+psutil==5.9.6
+aiofiles==23.2.1
+
+# Optional: Redis for distributed caching (if needed)
+# redis==5.0.1
+# aioredis==2.0.1
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# Logging and Monitoring
+structlog==23.2.0
+
