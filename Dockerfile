@@ -25,4 +25,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s \
     CMD python healthcheck.py || exit 1
 
 # Main command to run the bot with log streaming
-CMD (python bot.py &) && tail -f /app/logs/bot.log
+CMD (python bot.py &) && tail -f /app/logs/bot
